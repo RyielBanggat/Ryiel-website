@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/picture.jpg" alt="My Profile Picture" class="profile-pic" />
+      <div class="intro-text">
+        <h1>Hi, welcome to my portfolio!</h1>
+        <p>Your future web developer 🚀</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="dark-mode-toggle">
+      <label class="switch">
+        <input type="checkbox" id="darkToggle" />
+        <span class="slider round"></span>
+      </label>
+      <span class="toggle-label">Dark Mode</span>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Hello, I'm RYIEL BANGGAT</h2>
+      <p>Hi there! I'm glad you're here. This is where I showcase my projects, skills, and the work I'm passionate about.</p>
+      <a href="#contact" class="cta-button">Let’s work together!</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="images/picture.jpg" alt="About Image" class="about-image">
+        <div class="about-text">
+          <p>I'm a passionate web developer who loves turning ideas into beautiful websites.</p>
+          <p><strong>Skills:</strong> HTML, CSS, JavaScript, Responsive Design</p>
+          <p><strong>Interests:</strong> UI/UX, creative coding, tech gadgets</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="images/website.jpg" alt="Project 1">
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive website to showcase my web development skills. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/task.jpg" alt="Project 2">
+          <h3>To-Do List App</h3>
+          <p>A simple to-do app with task tracking, filtering, and local storage. Built using JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 RYIEL BANGGAT. All rights reserved.</p>
+    <a href="resume.pdf" target="_blank">Download Resume</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
